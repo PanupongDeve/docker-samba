@@ -3,6 +3,7 @@ version: "3"
 services:
   samba:
     image: dperson/samba
+    restart: always
     ports:
       - 139:139
       - 445:445
